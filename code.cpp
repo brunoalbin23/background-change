@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    const wchar_t *file = L"img/cr7.jpg";
+    const wchar_t *file = L"RUTA ABSOLUTA DE LA IMAGEN AQUÍ"; // Cambiar por la ruta de la imagen (absoluta)
     
     bool result = SystemParametersInfoW(SPI_SETDESKWALLPAPER, 0, (void *)file, SPIF_UPDATEINIFILE | SPIF_SENDCHANGE);
 
